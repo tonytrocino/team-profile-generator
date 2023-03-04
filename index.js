@@ -1,8 +1,12 @@
-const inquirer = require("inquirer");
-const fs = require("fs");
-const util = require("util");
-const Manager = require("./lib/Manager");
-const Engineer = require("./lib/Engineer");
-const Intern = require("./lib/Intern");
+import inquirer from "inquirer";
+import fs from 'fs';
+import util from 'util';
+import Employee from "./lib/Employee";
+import Manager from "./lib/Manager";
+import Engineer from "./lib/Engineer";
+import Intern  from"./lib/Intern";
 
 console.log("hello world");
+
+var employee = new Employee("Tony", 1, "a@b.com");
+console.log(employee);

@@ -1,0 +1,33 @@
+* {
+    font-family: Raleway;
+}
+
+body {
+  background: url(https://cdn.stocksnap.io/img-thumbs/960w/2QAM3GUJKV.jpg) center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0%;
+  height: 100vh;
+}
+.header {
+  background-color: rgb(65, 65, 64);
+  border: solid black;
+  text-align: center;
+  font-size: 30px;
+}
+.container-body {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  background-color:rgb(255, 255, 255);
+  margin-top: 4%;
+  border: solid black;
+  font-size: x-large;
+}
+.card-header{
+  margin: 10%;
+}
+.card-body{
+  margin: 5%;
+}
